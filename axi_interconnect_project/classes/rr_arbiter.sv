@@ -4,7 +4,7 @@ class rr_arbiter;
         int i;
         for(i=0;i<4;i++)begin
             int idx= (rr_ptr+i)%4;
-            if(requst[idx])begin
+            if(request[idx])begin
                 rr_ptr=(idx+1)%4;                   
                 return idx;
             end

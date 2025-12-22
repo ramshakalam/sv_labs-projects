@@ -3,15 +3,15 @@ class axi_interconnect;
     bit ACLK;
     bit ARESETn;
 
-    axi_master_if master_if[4];
-    axi_slave_if  slave_if [4];
+    virtual axi_master_if master_if[4];
+    virtual axi_slave_if  slave_if [4];
     addr_decoder decoders[4];
     rr_arbiter   arbiters[4];
     id_entry id_table[$];
 
     function new(
-        axi_master_if m_if[4],
-        axi_slave_if  s_if[4],
+        virtual axi_master_if m_if[4],
+        virtual axi_slave_if  s_if[4],
         bit clk,
         bit rst_n
     );
@@ -40,7 +40,7 @@ class axi_interconnect;
     task handle_write();
         bit [3:0] target_slave[4];
         bit slave_req[4][4];
-        int win_master;
+        int m,s,win_master;
 
         forever begin
             @(posedge ACLK);
@@ -96,14 +96,16 @@ class axi_interconnect;
     // Handle Read Path
     task handle_read();
         int m,s,granted_master;
+	bit request[4];
         forever begin
             @(posedge ACLK);
             if (!ARESETn)
                 continue;
 
             // Decode and arbitrate
-            foreach(s_slave[s]) begin
-                bit request[4];
+            foreach(slave_if[s]) begin
+                for (m = 0; m < 4; m++)
+                	request[m] = 0;
                 foreach(master_if[m])
                     request[m] = master_if[m].ARVALID && (decoders[m].decode(master_if[m].ARADDR)==s);
 
