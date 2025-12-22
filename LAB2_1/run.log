@@ -1,0 +1,28 @@
+Command: /home/ramsha/SV_LABS/LAB2_1/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Nov 19 12:33 2025
+
+=== 477-bit Random Number ===
+
+Word 14 [ 476: 448] = 0xX5e23536
+Word 13 [ 447: 416] = 0x57dea13c
+Word 12 [ 415: 384] = 0xbe7fe77d
+Word 11 [ 383: 352] = 0x30aa33e2
+Word 10 [ 351: 320] = 0x0279440b
+Word 09 [ 319: 288] = 0xb9b381df
+Word 08 [ 287: 256] = 0xf350a940
+Word 07 [ 255: 224] = 0xd51778f7
+Word 06 [ 223: 192] = 0x6d7e79a6
+Word 05 [ 191: 160] = 0x30d4b41b
+Word 04 [ 159: 128] = 0x025b9db5
+Word 03 [ 127:  96] = 0x82e394fa
+Word 02 [  95:  64] = 0x19bc7a4e
+Word 01 [  63:  32] = 0x5a98a215
+Word 00 [  31:   0] = 0x7985c17d
+$finish called from file "RANDOM477.sv", line 24.
+$finish at simulation time                   10
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Wed Nov 19 12:33:58 2025

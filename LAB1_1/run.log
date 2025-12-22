@@ -1,0 +1,11 @@
+Command: /home/ramsha/SV_LABS/LAB1_1/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Nov 19 10:15 2025
+0 ns : My First SystemVerilog Program
+$finish called from file "hello_world.sv", line 10.
+$finish at simulation time                   10
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Wed Nov 19 10:15:49 2025

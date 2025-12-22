@@ -1,0 +1,28 @@
+Command: /home/ramsha/SV_LABS/LAB2_2/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Nov 19 17:00 2025
+sarr[  0] = "sa30N62rxk"  len=10
+sarr[  1] = "xdv22Nz096"  len=10
+sarr[  2] = "3u270X0"  len=7
+sarr[  3] = "mz3M7Z0j"  len=8
+sarr[  4] = "ps4lC0lr4"  len=9
+sarr[  5] = "8ZQG9k"  len=6
+sarr[  6] = "331928k0h"  len=9
+sarr[  7] = "9P0hB9"  len=6
+sarr[  8] = "wl45108Yl399"  len=12
+sarr[  9] = "G8Z631i918"  len=10
+sarr[ 10] = "14WS86B"  len=7
+sarr[ 11] = "53E44Oinbn"  len=10
+sarr[ 12] = "5xxamgA5XN9"  len=11
+sarr[ 13] = "ID047P964R"  len=10
+sarr[ 14] = "7860KT1g"  len=8
+sarr[ 15] = "LJB3aiF29a"  len=10
+sarr[ 16] = "Ig1Rsb91"  len=8
+sarr[ 17] = "601E810p6JBQ"  len=12
+sarr[ 18] = "6bK3g7t7i13"  len=11
+sarr[ 19] = "446nePT82"  len=9
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.230 seconds;       Data structure size:   0.0Mb
+Wed Nov 19 17:00:57 2025
