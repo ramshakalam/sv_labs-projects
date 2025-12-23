@@ -1,3 +1,8 @@
+`timescale 1ns / 1ps
+
+module your_module;
+  // your code
+endmodule
 module fifo(clk,rst,din,pop,push, dout,empty,full,dump);
   parameter DW = 32;
   parameter AW = 9;

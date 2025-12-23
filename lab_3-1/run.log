@@ -1,0 +1,20 @@
+Command: /home/ramsha/SV_LABS/lab_3-1/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Dec 23 11:35 2025
+
+=== Lab 3-1: 8-bit Barrel Shifter Testbench ===
+
+8-bit exhaustive test complete: Errors = 0 (of 2048 tests)
+Why possible: 256 data x 8 shifts = 2048 cases  feasible in seconds (combinational logic, small input space).
+
+=== Extension: 32-bit Barrel Shifter Testbench ===
+
+32-bit random test complete: Errors = 0 (of 1,000,000 tests)
+Why not exhaustive: 2^32 data x 32 shifts = ~137 billion cases  impossible (would take years to simulate). Use random testing + corner cases.
+$finish called from file "testbench.sv", line 65.
+$finish at simulation time             10020490
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10020490
+CPU Time:      0.490 seconds;       Data structure size:   0.0Mb
+Tue Dec 23 11:35:52 2025

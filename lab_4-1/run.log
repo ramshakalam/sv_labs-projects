@@ -1,0 +1,17 @@
+Command: /home/ramsha/SV_LABS/lab_4-1/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Dec 23 11:42 2025
+Reset complete: count = 0
+Loaded din = 4660, count = 0
+Counting up enabled
+Counter started
+Count after 10 cycles up: 9
+Loaded din = 43981, count = 0
+Count after load and 5 cycles: 4
+$finish called from file "test.sv", line 76.
+$finish at simulation time                  295
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 295
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Tue Dec 23 11:42:56 2025

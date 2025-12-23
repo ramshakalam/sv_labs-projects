@@ -1,3 +1,8 @@
+`timescale 1ns / 1ps
+
+module your_module;
+  // your code
+endmodule
 module tb;
   myex exArr[10];  
 

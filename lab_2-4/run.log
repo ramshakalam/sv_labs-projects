@@ -1,0 +1,25 @@
+Command: /home/ramsha/SV_LABS/lab_2-4/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Dec 22 13:36 2025
+
+=== Lab: Construct exArr and randomize using genex() ===
+
+a:2 b:14
+a:2 b:8
+a:2 b:17
+a:2 b:10
+a:3 b:22
+a:6 b:14
+a:1 b:4
+a:3 b:16
+a:0 b:6
+a:3 b:9
+
+All 10 entries randomized using genex() and printed!
+$finish called from file "tb.sv", line 19.
+$finish at simulation time                   10
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Mon Dec 22 13:36:05 2025

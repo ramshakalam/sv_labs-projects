@@ -1,0 +1,16 @@
+Command: /home/ramsha/SV_LABS/lab_2-5/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Dec 22 13:44 2025
+Reset OK: empty=1 full=0
+WR: 10
+WR: 11
+ERROR: dout=11 expected=10
+RD: 11
+RD: xxxxxxxx
+$finish called from file "test.sv", line 35.
+$finish at simulation time                10315
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10315
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Mon Dec 22 13:44:47 2025

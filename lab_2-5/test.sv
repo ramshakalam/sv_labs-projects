@@ -1,3 +1,8 @@
+`timescale 1ns / 1ps
+
+module your_module;
+  // your code
+endmodule
 module test ();
 
   parameter DW = 32;
@@ -41,7 +46,7 @@ module test ();
     forever #5 clk = ~clk;
   end
 
-  // Tasks to fill (as required)
+  // Tasks to fill 
   task reset_fifo ();
     rst = 1;
     push = 0;

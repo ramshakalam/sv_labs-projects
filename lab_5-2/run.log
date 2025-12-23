@@ -1,0 +1,24 @@
+Command: /home/ramsha/SV_LABS/lab_5-2/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Dec 23 12:05 2025
+
+=== Lab 5-2: Wall Clock with Stopwatch ===
+
+00:00:00
+Stopwatch started at 00:00:00 (total sec = 0)
+Lap 1: 3000 seconds (total time: 00:50:00)
+Lap 2: 2000 seconds (total time: 01:23:20)
+Stopwatch stopped at 01:23:20 (total sec = 5000)
+
+Lap Times:
+Lap 1: 3000 seconds
+Lap 2: 2000 seconds
+
+Simulation complete!
+$finish called from file "wallclock_stopwatch.sv", line 120.
+$finish at simulation time             10010000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10010000 us
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Tue Dec 23 12:05:11 2025

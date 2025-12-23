@@ -15,7 +15,7 @@ class MemoryModel;
       int bank = wr_addr[15:14];
       int row = wr_addr[13:0];
       mem[bank][row] = wr_data;
-      $display("[%0t] WRITE → addr=%04h bank=%0d row=%0d data=%012h", $time, wr_addr, bank, row, wr_data);
+      $display("[%0t] WRITE ? addr=%04h bank=%0d row=%0d data=%012h", $time, wr_addr, bank, row, wr_data);
     end else begin
       $display("[%0t] WRITE IGNORED - wr_strobe low", $time);
     end
@@ -28,7 +28,7 @@ class MemoryModel;
       int row = rd_addr[13:0];
       #5;  // 5ns delay as per spec
       rd_data = mem[bank][row];
-      $display("[%0t] READ → addr=%04h bank=%0d row=%0d data=%012h", $time, rd_addr, bank, row, rd_data);
+      $display("[%0t] READ ? addr=%04h bank=%0d row=%0d data=%012h", $time, rd_addr, bank, row, rd_data);
     end else begin
       rd_data = 'x;
       $display("[%0t] READ IGNORED - rd_strobe low", $time);

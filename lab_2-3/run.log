@@ -1,0 +1,39 @@
+Command: /home/ramsha/SV_LABS/lab_2-3/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Dec 22 13:28 2025
+
+=== Memory Model Initialized (4 banks x 16K x 47-bit) ===
+
+
+=== Lab 2-3: 47-bit x 64K 4-Bank Memory Model Testbench ===
+
+Test 1: Writing to all 4 banks (strobe high)
+
+[20] WRITE ? addr=0000 bank=0 row=0 data=23456789abcd
+[20] WRITE ? addr=4000 bank=1 row=0 data=5eadbeef1234
+[20] WRITE ? addr=8000 bank=2 row=0 data=555555555555
+[20] WRITE ? addr=c000 bank=3 row=0 data=4afebabe0000
+
+Test 2: Write with strobe low (ignored)
+
+[20] WRITE IGNORED - wr_strobe low
+
+Test 3: Reading from all 4 banks (strobe high)
+
+[25] READ ? addr=0000 bank=0 row=0 data=23456789abcd
+[30] READ ? addr=4000 bank=1 row=0 data=5eadbeef1234
+[35] READ ? addr=8000 bank=2 row=0 data=555555555555
+[40] READ ? addr=c000 bank=3 row=0 data=4afebabe0000
+
+Test 4: Read with strobe low (ignored)
+
+[40] READ IGNORED - rd_strobe low
+
+Simulation complete!
+$finish called from file "tb.sv", line 37.
+$finish at simulation time                   90
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 90
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Mon Dec 22 13:28:31 2025

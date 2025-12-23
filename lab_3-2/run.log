@@ -1,0 +1,51 @@
+Command: /home/ramsha/SV_LABS/lab_3-2/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Dec 22 16:20 2025
+
+=== Lab 3-2: 32-bit Counter Testbench ===
+
+Test 1: Count up in steps 1 to 8
+Mode 0: count = 5
+Mode 1: count = 15
+Mode 2: count = 30
+Mode 3: count = 50
+Mode 4: count = 75
+Mode 5: count = 100
+[325] TIMER EVENT asserted!
+[335] TIMER EVENT asserted!
+[345] TIMER EVENT asserted!
+[355] TIMER EVENT asserted!
+[365] TIMER EVENT asserted!
+Mode 6: count = 100
+[375] TIMER EVENT asserted!
+[385] TIMER EVENT asserted!
+[395] TIMER EVENT asserted!
+[405] TIMER EVENT asserted!
+[415] TIMER EVENT asserted!
+Mode 7: count = 100
+
+Test 2: Count down to 0
+Count down to 0: timer_event = 1, final count = 0
+
+Test 3: Load new value
+Loaded count = 123456
+
+Test 4: Saturation in up count
+Saturation test: count = 200, timer_event = 1
+[3005] TIMER EVENT asserted!
+[3015] TIMER EVENT asserted!
+[3025] TIMER EVENT asserted!
+[3035] TIMER EVENT asserted!
+[3045] TIMER EVENT asserted!
+[3055] TIMER EVENT asserted!
+[3065] TIMER EVENT asserted!
+[3075] TIMER EVENT asserted!
+[3085] TIMER EVENT asserted!
+[3095] TIMER EVENT asserted!
+$finish called from file "tb_counter.sv", line 77.
+$finish at simulation time                 3100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3100
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Mon Dec 22 16:20:06 2025
