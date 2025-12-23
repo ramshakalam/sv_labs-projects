@@ -1,0 +1,53 @@
+Command: /home/ramsha/SV_LABS/lab_8-1/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Dec 23 12:50 2025
+
+=== Lab 8-1: Inter-process Communication with Semaphore ===
+
+[0] wr_a: addr=65 data=e6
+[0] wr_b: addr=240 data=d4
+[0] rd: addr=263 data=0
+[5] wr_a: addr=485 data=7f
+[5] wr_b: addr=63 data=c2
+[5] rd: addr=357 data=0
+[15] wr_a: addr=34 data=a9
+[15] wr_b: addr=291 data=59
+[15] rd: addr=504 data=0
+[25] wr_a: addr=33 data=86
+[25] wr_b: addr=80 data=d4
+[25] rd: addr=491 data=0
+[35] wr_a: addr=109 data=53
+[35] wr_b: addr=145 data=c8
+[35] rd: addr=119 data=0
+[45] wr_a: addr=160 data=c9
+[45] wr_b: addr=375 data=c9
+[45] rd: addr=140 data=0
+[55] wr_a: addr=44 data=df
+[55] wr_b: addr=307 data=d1
+[55] rd: addr=225 data=0
+[65] wr_a: addr=171 data=64
+[65] wr_b: addr=270 data=a2
+[65] rd: addr=303 data=0
+[75] wr_a: addr=278 data=47
+[75] wr_b: addr=198 data=25
+[75] rd: addr=260 data=0
+[85] wr_a: addr=7 data=5e
+[85] wr_b: addr=309 data=81
+[85] rd: addr=55 data=0
+[95] rd: addr=451 data=0
+[105] rd: addr=127 data=0
+[115] rd: addr=121 data=0
+[125] rd: addr=277 data=0
+[135] rd: addr=196 data=0
+[145] rd: addr=337 data=0
+[155] rd: addr=207 data=0
+[165] rd: addr=3 data=0
+[175] rd: addr=334 data=0
+[185] rd: addr=405 data=0
+$finish called from file "ipc_test.sv", line 77.
+$finish at simulation time                  500
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 500
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Tue Dec 23 12:50:39 2025

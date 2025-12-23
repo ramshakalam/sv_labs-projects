@@ -1,0 +1,155 @@
+Command: /home/ramsha/SV_LABS/lab_6-1/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Dec 23 12:33 2025
+
+=== Lab 6-1: Random Packet Generation with Constraints ===
+
+=== Generated Packet ===
+Destination : 8c6ce91ad7b9
+Source      : 70a3a13af8a7
+Length      : 322 bytes
+Payload size: 304 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : 1214a311a307
+Source      : 373404fcb88c
+Length      : 1013 bytes
+Payload size: 995 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : f8a1dc1c6b6b
+Source      : 20de7dd10a03
+Length      : 355 bytes
+Payload size: 337 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : 41e3ca8e4e56
+Source      : 9237923f1db5
+Length      : 1011 bytes
+Payload size: 993 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : 24c8cd944349
+Source      : 2b01727da388
+Length      : 1314 bytes
+Payload size: 1296 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : ab7a76760997
+Source      : 977593478b4b
+Length      : 217 bytes
+Payload size: 199 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : c21794527ab4
+Source      : b3fab81d3b69
+Length      : 521 bytes
+Payload size: 503 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : eb86f14299af
+Source      : 9c238843f8d6
+Length      : 434 bytes
+Payload size: 416 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : e5dc9f65d921
+Source      : 637cd1c8eb66
+Length      : 946 bytes
+Payload size: 928 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : 844595c8305e
+Source      : 0b5100b7c9fd
+Length      : 338 bytes
+Payload size: 320 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : 792203fb72da
+Source      : 712e56f0c04d
+Length      : 756 bytes
+Payload size: 738 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : 06da5ddb9910
+Source      : cb613c564690
+Length      : 909 bytes
+Payload size: 891 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : 8a6554553f70
+Source      : b0681973783a
+Length      : 389 bytes
+Payload size: 371 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : c9251dc13a87
+Source      : 2c3a6a7a7e83
+Length      : 278 bytes
+Payload size: 260 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : e4b5faae4b5e
+Source      : 972ffaa04de3
+Length      : 306 bytes
+Payload size: 288 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : f51e15d20dce
+Source      : fbf57c2ee72b
+Length      : 1031 bytes
+Payload size: 1013 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : 44621e153aa6
+Source      : 8daaba6d4d61
+Length      : 146 bytes
+Payload size: 128 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : 0028121aa856
+Source      : 0c4218bd27ad
+Length      : 1041 bytes
+Payload size: 1023 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : 27eedaa52d29
+Source      : 41e14ae1b2a4
+Length      : 148 bytes
+Payload size: 130 bytes
+CRC         : 00000000 (not calculated)
+==========================
+=== Generated Packet ===
+Destination : 85b35b25e6a6
+Source      : 60069b14023a
+Length      : 849 bytes
+Payload size: 831 bytes
+CRC         : 00000000 (not calculated)
+==========================
+
+Simulation complete - 20 packets generated!
+$finish called from file "packet.sv", line 65.
+$finish at simulation time                   30
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 30
+CPU Time:      0.240 seconds;       Data structure size:   0.0Mb
+Tue Dec 23 12:33:23 2025

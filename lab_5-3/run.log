@@ -1,0 +1,18 @@
+Command: /home/ramsha/SV_LABS/lab_5-3/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Dec 23 12:24 2025
+
+=== Lab 5-3: Polymorphism Demonstration ===
+
+Car: Toyota with 4 wheels
+Truck with 6 wheels, load capacity 10 tons
+Bike: Mountain Bike with 2 wheels
+
+Polymorphism demonstrated: same base handle calls different implementations!
+$finish called from file "vehicles.sv", line 76.
+$finish at simulation time                   10
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10
+CPU Time:      0.210 seconds;       Data structure size:   0.0Mb
+Tue Dec 23 12:24:57 2025

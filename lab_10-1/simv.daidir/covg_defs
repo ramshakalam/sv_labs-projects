@@ -1,0 +1,74 @@
+global coverage_group 0 0 $unit(test.sv)::pkt_size_cg __coverage_pkt_size_cg unused_pkt_size_cg_loop_label $unit 1 1 0 1 $unit::packet.sv::test.sv 0  ( 0 
+)
+ 1 1
+ 0 37 /home/ramsha/SV_LABS/lab_10-1/test.sv
+ 4 0 0 0 0 0 0 0 0  0
+0
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 1
+ 7 len_ref 2 16 0 1
+
+1
+0
+0
+0
+ 7 len_ref 5 0 0 0 0 0 0 48 pkt_size_cg::_vcs_unit__263319711_pkt_size_cg_fn 48 pkt_size_cg::_vcs_unit__263319711_pkt_size_cg_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 16 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 8 1 1 0 0 1 1 7 size_64 6 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 50 pkt_size_cg::_vcs_unit__263319711_pkt_size_cg_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 size_128 7 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 50 pkt_size_cg::_vcs_unit__263319711_pkt_size_cg_fn_1 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 size_192 8 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 50 pkt_size_cg::_vcs_unit__263319711_pkt_size_cg_fn_2 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 size_256 9 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 50 pkt_size_cg::_vcs_unit__263319711_pkt_size_cg_fn_3 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 size_512 10 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 50 pkt_size_cg::_vcs_unit__263319711_pkt_size_cg_fn_4 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 size_768 11 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 50 pkt_size_cg::_vcs_unit__263319711_pkt_size_cg_fn_5 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 9 size_1024 12 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 50 pkt_size_cg::_vcs_unit__263319711_pkt_size_cg_fn_6 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 9 size_1518 13 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 50 pkt_size_cg::_vcs_unit__263319711_pkt_size_cg_fn_7 0 0 0 0 0 0 0
+ 0
+
+end_coverage_group

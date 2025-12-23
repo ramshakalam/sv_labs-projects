@@ -1,0 +1,16 @@
+Command: /home/ramsha/SV_LABS/lab_7-1/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Dec 23 12:42 2025
+
+=== Lab 7-1: Interfaces  Counter Testbench ===
+
+Reset complete: count = 0
+Loaded count = 160
+ERROR: Ctr did not dec
+$finish called from file "test.sv", line 55.
+$finish at simulation time                  535
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 535
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Tue Dec 23 12:42:46 2025

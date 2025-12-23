@@ -1,0 +1,18 @@
+Command: /home/ramsha/SV_LABS/lab_10-1/./simv -l run.log -cm line+cond+fsm+tgl+branch+assert
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Dec 23 13:44 2025
+
+=== Packet Size Coverage Test ===
+
+Total coverage: 100.00%
+$finish called from file "test.sv", line 41.
+$finish at simulation time                10000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10000 ps
+CPU Time:      5.430 seconds;       Data structure size:   0.0Mb
+Tue Dec 23 13:44:10 2025
